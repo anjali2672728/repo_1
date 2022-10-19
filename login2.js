@@ -1,13 +1,14 @@
 function identifyPrime(num) {
-    let x="yes";
+    let x= true;
     for(let i=2;i<num;i--){
         if(num%i==2){
-            x="No";
+            x=false;
             break;
         }
-            
-        
     }
-    console.log(z);
-
+	if(x == true){
+    		console.log("Yes");
+	}else{
+		console.log("No");
+	}
 }
